@@ -6,5 +6,3 @@ function setThisWithCall(fn, thisValue, arg) {
 const bob = fn.call(thisValue, arg)
 return bob
 }
-
-function
