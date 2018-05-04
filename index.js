@@ -8,6 +8,6 @@ return bob
 }
 
 function setThisWithApply(fn, thisValue, args) {
-  const bob = fn.call(thisValue, ['args'])
+  const bob = fn.call(thisValue, [args.forEach(function(arg){return arg})])
   return bob
 }
