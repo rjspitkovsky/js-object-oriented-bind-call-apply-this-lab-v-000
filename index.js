@@ -7,7 +7,7 @@ const bob = fn.call(thisValue, arg)
 return bob
 }
 
-function setThisWithApply(fn, thisValue, arg) {
+function setThisWithApply(fn, thisValue, args) {
   const bob = fn.call(thisValue, [args])
   return bob
 }
