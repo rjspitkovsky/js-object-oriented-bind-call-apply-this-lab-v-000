@@ -3,8 +3,8 @@ function justInvoke(fn) {
 }
 
 function setThisWithCall(fn, thisValue, arg) {
-return fn.call(thisValue, arg)
-
+const bob = fn.call(thisValue, arg)
+return bob
 }
 
 function
